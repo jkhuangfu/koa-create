@@ -2,7 +2,6 @@
 const program = require('commander');
 const chalk = require('chalk');
 const fs = require('fs-extra');
-const _fs = require('fs');
 const path = require('path');
 const download = require('download-git-repo');
 const ora = require('ora');
@@ -27,8 +26,8 @@ program
   .action(function (cmd, option) {
     if (typeof cmd === 'string') {
       let proejctName = path.join(process.cwd(), cmd)
-      _fs.exists(proejctName, (data) => {
-        if (data) {
+      fs.pathExists(proejctName, (err,exists) => {
+        if (exists) {
           inquirer.prompt([{
             type: 'confirm',
             message: '文件名已存在是否替换',

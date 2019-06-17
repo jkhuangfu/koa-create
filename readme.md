@@ -2,7 +2,8 @@
 ## koa 项目模板生成工具
 
 ```
-    koa-create init <project name>
+    1、全局安装 npm install koa-create -g
+    2、使用koa-create init <project name>生成项目
 ```
 ``
     已包含以下配置功能
