@@ -1,6 +1,6 @@
 {
   "name": "koa-create",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "koa模板生成工具",
   "main": "index.js",
   "bin": {
