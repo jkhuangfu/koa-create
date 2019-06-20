@@ -15,6 +15,7 @@
   "author": "皇甫",
   "license": "ISC",
   "dependencies": {
+    "child_process": "^1.0.2",
     "commander": "^2.20.0",
     "download-git-repo": "^2.0.0",
     "fs-extra": "^8.0.1",
