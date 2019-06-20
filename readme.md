@@ -18,3 +18,6 @@
 4、koa-bodyparser 支持解析 post 请求体放在 body 中
 
 5、koa-session session存储功能（与 express-session 有所不不同，加密存放在客户端）
+
+#更新日志
+0.1.2 增加创建项目后自动安装项目依赖功能
